@@ -1,8 +1,26 @@
-# Requirements
+# Notes
 
-A client has hired you to track zoo animals.
-For each individual animal, you must track that their name, species, and all zoos in which they have resided (including zoo name and address).
+- Captures ALL the information the system needs
+- Captures ONLY the information the system needs abstraction
+- Reflects reality (from the point of view of the system)
+- Flexible --> Can evolve with the system
+- Garauntee the data integrity without sacrificing data performance
+- Is driven by the way we access the data
 
-Determine the database tables necessary to track this information.
+## Components
+- Entities (nouns: zoo, animal, species), like a resource --> Tables
+- Properties --> Columns or fields
+- Relationships --> Foreign keys
 
-Label any relationships between table.
+## Workflow
+- Identify entities
+- Identify properties
+- Identify relationships
+
+## Relationships
+- One to one: rare
+- One to many: this is it!
+- many to many: a trick!!!
+
+## Mantras
+- Every table must have a Primay Key
